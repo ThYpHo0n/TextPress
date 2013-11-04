@@ -75,14 +75,10 @@
     </div>
     <hr>
     <footer id="site-footer">
-        <p>Powered by TextPress. &copy; <a href="http://blog.shameerc.com" target="_blank">Shameer C</a> 2013.</p>
+        <p>Powered by <a href="http://textpress.shameerc.com" target="_blank">TextPress</a>. &copy; <a href="/imprint" target="_blank">Nik'ThYpHoOn'Grebe </a> 2013.</p>
     </footer>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
     <script type="text/javascript" src="<?php echo $global['assets.prefix'];?>/themes/textpress/assets/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -82,7 +82,7 @@
     </div>
     <hr>
     <footer id="site-footer">
-        <p>Powered by TextPress. &copy; <a href="http://blog.shameerc.com" target="_blank">Shameer C</a> 2013.</p>
+        <p>Powered by <a href="http://textpress.shameerc.com" target="_blank">TextPress</a>. &copy; <a href="http://blog.thyphoon.org" target="_blank">Nik'ThYpHoOn'Grebe </a> 2013.</p>
     </footer>
 
     <!-- Le javascript
