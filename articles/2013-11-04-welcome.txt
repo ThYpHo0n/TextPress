@@ -1,0 +1,38 @@
+{
+	"title" : "Welcome",
+	"author":"ThYpHoOn",
+	"date":"04-11-2013",
+	"tag":"blog",
+	"category":"Blog"
+}
+
+Hey,
+great to see you here! I've started this blog after my old blog was dead and the domain was shutdown. I want to cover my 3 biggest topics here:
+programming, music and politics. All except politics will be written in english. What can you expect from this blog?
+
+## Programming
+I'm a developer at [InnoGames](http://www.innogames.com) and write PHP, JS (front/backend) and Java code. I visit most of CCC events and love to hack.
+
+[ThYpHo0n@Github](https://github.com/ThYpHo0n/)
+
+[ThYpHo0n@Bitbucket](https://bitbucket.org/ThYpHo0n)
+
+I want to write my daily stories about my work and projects. Also provide you with some solutions or code snippets for some funny/crazy problems (hopefully).
+
+## Music
+I love electronic music. In my childhood i started hearing the Thunderdome cds. Then a little bit later it followed by handsup and hardstyle. Today i mostly like dirty electro house and still sometimes hardstyle. I will post recently my favorite tracks and podcasts in this section.
+
+## Politics
+Arr, here's a pirate. Since 2008 i'm active in the pirate party germany. I just want to share my opinion on the daily news and the topics out there.
+
+## Socialize
+### Twitter
+[@ThYpHoOn](http://www.twitter.com/ThYpHoOn)
+### Soundcloud
+[ThYpHoOn@Soundcloud](https://soundcloud.com/thyphoon)
+### Last.fm
+[DjThYpHoOn@Last.fm](http://last.fm/user/DjThYpHoOn)
+### Foursquare
+[ThYpHoOn@Foursquare](https://de.foursquare.com/thyphoon)
+### IRC
+You can find me in #bvb09@quakenet or #voxel.js@freenode
