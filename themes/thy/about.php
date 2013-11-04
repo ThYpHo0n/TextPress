@@ -1,21 +1,19 @@
+<h3>About</h3>
+<p><img src="/themes/thy/assets/img/Me_papercraft.jpg" style="max-width: 100px;"/></p>
+<p>Hiho,</p>
+<p>I'm Nik, a developer at <a href="http://innogames.com/">InnoGames GmbH</a>. Currently living in Hamburg, for me the nicest city in germany. Beside of that i'm developing my own web based 3D tower defense rts game.
+I love to hear music not only while coding but i'm better at coding if i can hear to my favorite music ;)
+I'm also a soccer fan boy of the great Borrusia Dortmund!
+I enjoy my movie flatrate with my Apple tv at home, (i like popcorn and taccos while watching some great movies or tv series).
+In my spare time i play golf (if the weather conditions are nice enough).
+And at the end of the day i'm just a human who wants some cuddling/kisses/love, but currently i don't share my lifetime with someone.
+</p>
 
-  <h3>About</h3>
-  <p>Hi There,</p>
-  <p>I am Shameer, a developer from God's own country (Kerala), India. I am mainly working on web development using PHP, Scala, Javascript, etc. 
-    Apart from that I do enjoy coding in Ruby (infact, I love it), system administration, database administration, etc. 
-    Occasionally I write about PHP stuffs in <a href="http://phpmaster.com">Phpmaster.com</a> and about Cloud in <a href="https://www.simple-talk.com/author/shameer/">Simple-Talk</a>.</p>
-  <h3>Philosophy</h3>
-  <p>Though there are many flat-file blog engines, like Toto, Jekyll, etc. I was unable to find a decent one for PHP lovers. 
-    As there are some good PHP Cloud platform services like AppFog and Pagodabox which offers free hosting in cloud, 
-    having a flat-file blog engine written in PHP makes perfect sense. An important reason is it's performance. 
-    Flat file blog engine will load much faster compared to database driven CMS websites. 
-    Also it is highly secure and agile. So I decided not to wait for someone else to do it and here's mine - TexPress. My goal is to provide almost
-    all the necessary features for a blogging engine with TextPress.
-  </p>
-  <strong>Disclaimer</strong> <br>
-    I won't say TextPress is a completely secure and bulletproof application and It's not a big deal to write something like this. 
-    So if you are not comfortable with it, feel happy to fork it, add features and let me know what you have done. 
-    I will always try to improve it and add more features. 
-  <h3>Contact</h3>
-  <p>You can contact me in twitter <a href="http://twitter.com/shameerc">@shameerc</a>. Visit my personal blog <a href="http://blog.shameerc.com">Shameerc.com</a></p>
-
+<h3>Socialize with me</h3>
+<p>@ThYpHoOn - <a href="http://www.twitter.com/ThYpHoOn">http://www.twitter.com/ThYpHoOn</a></p>
+<p>ThYpHo0n@Github - <a href="https://github.com/ThYpHo0n/">https://github.com/ThYpHo0n/</a></p>
+<p>ThYpHo0n@Bitbucket - <a href="https://bitbucket.org/ThYpHo0n">https://bitbucket.org/ThYpHo0n</a></p>
+<p>ThYpHoOn@Soundcloud - <a href="https://soundcloud.com/thyphoon">https://soundcloud.com/thyphoon</a></p>
+<p>DjThYpHoOn@Last.fm - <a href="http://last.fm/user/DjThYpHoOn">http://last.fm/user/DjThYpHoOn</a></p>
+<p>ThYpHoOn@Foursquare - https://de.foursquare.com/thyphoon</p>
+<p>You can find me in #bvb09@quakenet or #voxel.js@freenode</p>
