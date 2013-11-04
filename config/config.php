@@ -6,7 +6,7 @@ return array(
 	'site.title' => 'My blog about programming, music and politics',  // Site default title (Global)
 	'article.path'=> './articles',      // Path to articles
 	'themes.path' => './themes',  // Path to templates
-	'active.theme'  => 'textpress',  // Current active template
+	'active.theme'  => 'thy',  // Current active template
 	'layout.file' => 'layout',    // Site layout file
 	'file.extension' => '.txt',   // file extension of articles
 	'disqus.username' => '',   // Your disqus username or false (Global)
