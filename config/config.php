@@ -52,6 +52,10 @@ return array(
 					'route' => '/about',
 					'template' => 'about'
 				),
+			'imprint' => array(
+					'route' => '/imprint',
+					'template' => 'imprint'
+				),
 			'rss' => array(
 					'route' => '/feed/rss(.xml)',
 					'template' => 'rss',
