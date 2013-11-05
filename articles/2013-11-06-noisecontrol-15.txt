@@ -1,0 +1,10 @@
+{
+	"title" : "Noise Control #15",
+	"author":"ThYpHoOn",
+	"date":"06-11-2013",
+	"tag":"music, electro, soundcloud, podcast, noisecontrol",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/118574353&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Yesterday Steph DJ published the new Noise Control episode #15 on Soundcloud. I really enjoy this podcast, you should give it a (h)ear.
