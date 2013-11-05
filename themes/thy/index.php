@@ -10,7 +10,7 @@ else{
   <header>
     <h1><a href="<?php echo $article['url']; ?>"><?php echo $article['meta']['title']; ?></a></h1>
     <div class="postmeta">
-      <span class="date"><?php  echo date($global['date.format'],strtotime($article['meta']['date']));  ?></span> / 
+      <span class="date"><?php  echo date($global['date.format'],strtotime($article['meta']['date']));  ?></span> /
       <span class="author-by"> By </span>
       <span class="author"><?php  echo isset($article['meta']['author'])
                         ? $article['meta']['author']
@@ -20,7 +20,14 @@ else{
   </header>
 
   <section class="content">
-    <?php echo preg_replace('/\s+?(\S+)?$/', '', substr(strip_tags($article['content']), 0, 250)); ?>...
+    <?php
+      if (array_key_exists('music', $article['meta']['category'])) {
+        echo $article['content'];
+      } else {
+        echo preg_replace('/\s+?(\S+)?$/', '', substr(strip_tags($article['content']), 0, 250));
+        echo '...';
+      }
+    ?>
   </section>
   <div class="more">
     <a href="<?php echo $article['url']; ?>">Read on &raquo;</a>
