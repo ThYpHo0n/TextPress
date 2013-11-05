@@ -1,9 +1,9 @@
 <?php
  /**
  * Textpress - PHP Flat file blog engine
- * Textpress is a flat file blog engine, built on top of Slim inspired from Toto. 
+ * Textpress is a flat file blog engine, built on top of Slim inspired from Toto.
  * Now it have only a limited set of features and url options.
- * 
+ *
  * @author      Shameer C <me@shameerc.com>
  * @copyright   2012 - Shameer C
  * @version     1.0
@@ -29,16 +29,16 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
- 
+
 namespace Textpress;
 /**
 * Textpress
 * @author       Shameer
-* @since        1.0 
+* @since        1.0
 */
 class Textpress
 {
-    
+
     /**
     * TextPress configuration
     *
@@ -52,17 +52,17 @@ class Textpress
     * @var array
     */
     public $fileNames = array();
-    
+
     /**
     * Article location
     *
-    * @var string 
+    * @var string
     */
     private $_articlePath;
 
     /**
     * Do we need markdown parser?
-    * 
+    *
     * @var bool
     */
     public $markdown;
@@ -70,10 +70,10 @@ class Textpress
     /**
     * Articles
     *
-    * @var array 
+    * @var array
     */
     public $allArticles = array();
-    
+
     /**
     * View data
     *
@@ -119,7 +119,7 @@ class Textpress
 
     /**
     * Constructor
-    * 
+    *
     * @param Slim $slim Object of slim
     */
     public function __construct(\Slim\Slim $slim, $config)
@@ -179,7 +179,7 @@ class Textpress
         if (empty($this->fileNames))
         {
             $iterator = new \DirectoryIterator($this->_articlePath);
-            $files = new \RegexIterator($iterator,'/\\'.$this->config('file.extension').'$/'); 
+            $files = new \RegexIterator($iterator,'/\\'.$this->config('file.extension').'$/');
             foreach($files as $file){
                 if($file->isFile()){
                     $this->fileNames[] = $file->getFilename();
@@ -194,9 +194,9 @@ class Textpress
     * Loads an article
     *
     * @param string $fileName Name of article file
-    * @param bool $isArticle For requests to article it should 
+    * @param bool $isArticle For requests to article it should
     *                        merge meta data to global data
-    * @return array 
+    * @return array
     */
     public function loadArticle($fileName)
     {
@@ -213,16 +213,16 @@ class Textpress
         $sections   = explode("\n\n", $content);
         $meta       = json_decode(array_shift($sections),true);
         $contents   = implode("\n\n",$sections);
-        if($this->markdown){ 
+        if($this->markdown){
             $contents = Markdown($contents);
         }
-        $slug = (array_key_exists('slug', $meta) && $meta['slug'] !='') 
+        $slug = (array_key_exists('slug', $meta) && $meta['slug'] !='')
                     ? $meta['slug']
                     : $this->slugize($meta['title']);
         $meta['category'] = $this->collectCategories($meta);
         $meta['tag'] = $this->collectTags($meta);
         $article    = array(
-                        'meta' => $meta, 
+                        'meta' => $meta,
                         'content' => $contents,
                         'url'=>$this->getArticleUrl($meta['date'],$slug)
                         );
@@ -240,7 +240,7 @@ class Textpress
             $this->notFound();
         }
         $article = $this->allArticles[$url];
-        $this->slim->view()->appendGlobalData($article['meta']); 
+        $this->slim->view()->appendGlobalData($article['meta']);
         return $this->viewData['article'] = $article;
     }
 
@@ -259,7 +259,7 @@ class Textpress
                 break;
             }
             $article = $this->loadArticle($filename);
-            $slug = isset($article['meta']['slug']) 
+            $slug = isset($article['meta']['slug'])
                         ? $article['meta']['slug']
                         : $this->slugize($article['meta']['title']);
             $prefix = $this->config('prefix');
@@ -324,7 +324,7 @@ class Textpress
     *
     * @param  Date $date from arguments passed via rout
     * @param  String $format Date format
-    * @return array archives 
+    * @return array archives
     */
     public function setArchives($date=null,$format='')
     {
@@ -345,9 +345,9 @@ class Textpress
     /**
     *
     * Filter list of articles based on the meta key-value
-    * Mainly used in categories and tags, but you can extend for other custom 
+    * Mainly used in categories and tags, but you can extend for other custom
     * meta keys also. Just add the routes and update routing function to include those routes
-    * 
+    *
     * @param String $filter meta key to be searched in articles
     * @param string $value value to be mached with
     * @return array list of article matching the criteria
@@ -383,7 +383,7 @@ class Textpress
     {
         $format = is_null($format) ? $this->config('date.format') : $format;
         $date  = new \DateTime($date);
-        return $date->format($format);  
+        return $date->format($format);
     }
 
     /**
@@ -407,7 +407,7 @@ class Textpress
     public function setRoutes()
     {
         $this->_routes = $this->config('routes');
-        $self = $this; 
+        $self = $this;
         $prefix = $self->slim->config('prefix');
         foreach ($this->_routes as $key => $value) {
             $this->slim->map($prefix . $value['route'],function() use($self,$key,$value){
@@ -464,7 +464,7 @@ class Textpress
     /**
     * Constructs file name from route params
     * @param $params Array route parameters
-    * @return String file name 
+    * @return String file name
     */
     public function getPath($params)
     {
@@ -503,7 +503,7 @@ class Textpress
     public function slugize($str)
     {
         $str = strtolower(trim($str));
-        
+
         $chars = array("ä", "ö", "ü", "ß");
         $replacements = array("ae", "oe", "ue", "ss");
         $str = str_replace($chars, $replacements, $str);
@@ -514,10 +514,10 @@ class Textpress
 
         $pattern = array(":", "!", "?", ".", "/", "'");
         $str = str_replace($pattern, "", $str);
-        
+
         $pattern = array("/[^a-z0-9-]/", "/-+/");
         $str = preg_replace($pattern, "-", $str);
-        
+
         return $str;
     }
 
@@ -546,7 +546,7 @@ class Textpress
 
     /**
     * Collects categories from all articles
-    * 
+    *
     * @param string $meta Article meta data
     * @return array of distinct categories
     */
@@ -632,27 +632,27 @@ class Textpress
 }
 
 /**
-* Represents a Tag with name and count 
+* Represents a Tag with name and count
 */
 class Tag
 {
     /**
-    * tag name 
+    * tag name
     *
     * @var string
     */
     public $name;
 
     /**
-    * number of occurances of a tag 
+    * number of occurances of a tag
     *
     * @var int
     */
     public $count;
 
     /**
-    * Constructor 
-    * 
+    * Constructor
+    *
     * @param string $name  Tag name
     * @param int $count  Number of occurances of a tag
     */
