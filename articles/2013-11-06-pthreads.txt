@@ -1,0 +1,9 @@
+{
+	"title" : "PHP multithreading with pthreads",
+	"author":"ThYpHoOn",
+	"date":"06-11-2013",
+	"tag":"php, pthreads, multithreading",
+	"category":"programming"
+}
+
+Multithreading in PHP with <a href="http://pthreads.org" target="_blank">pthreads</a> rocks! I hope i can play around with it in the next days. It enables you through a PECL extension Posix Threads within PHP. I will post deeper information about this when i've tried it out.
