@@ -1,0 +1,33 @@
+{
+	"title" : "Developer Conference 2013 Tag 2",
+	"author":"ThYpHoOn",
+	"date":"09-11-2013",
+	"tag":"php, dchh, developer, conference",
+	"category":"programming"
+}
+
+Der zweite Tag auf der Developer Conference Hamburg 2013 fing erstmal leicht verkatert mit viel Kaffe und lecker belegten Brötchen an. Zumindest ich spürte die Party noch ein wenig, doch erstaunlicher Weise waren die ersten Talks gleich wieder gut besucht, so schlich ich mich in die hinterste Reihe und lies den ersten Talk auf mich wirken...
+<p><img src="/pictures/DCHH13_Tag2.jpg" style="max-height:500px;"></p><br />
+
+<ul>
+	<li><strong><a href="http://www.developer-conference.eu/session_post/entwurfsmuster-fuer-eine-saubere-infrastruktur/" target="_blank">Entwurfsmuster für eine saubere Infrastruktur</a></strong><br />
+		Der Talk war nach einer kleinen Einführungsphase schnell im praktischen Teil angelangt und die beiden Speaker haben reale Beispiele gebracht und deren best-practices erzählt. Da ich selbst nur vagrant mit Puppet oberflächlich betreibe und meine paar selbstgeschriebenen Module schön voneinander kapsel war für mich nicht allzu viel dabei was ich persönlich jetzt anders machen würde, da es für meine Bedürfnisse absolut reicht. Dafür waren die Beispiele auch recht anschaulich und bekräftigten mich das ich doch nicht nur kraut und rüben mache.</li>
+	<li><strong><a href="http://www.developer-conference.eu/session_post/meteor-vor-dem-einschlag-ein-flexibles-javascript-framework/" target="_blank">Meteor vor dem Einschlag: Ein flexibles JavaScript Framework
+</a></strong><br />
+		Der nächste heiße Scheiß aus der JS-Ecke. Ein Framework welches noch nicht "reif" ist, noch vielen API changes unterliegt und erstmal nur zum prototypen genutzt werden sollte. Dafür soll es Spaß machen und einem viel Arbeit abnehmen. Interessant war hier der Demo-Chat welcher während der Präsentation gezeigt wurde und vom Publikum dankend angenommen wurde und sich einige drauf verbunden hatten um etwas Spaß zu haben. So wurde gleich mal die Sicherheit (welche in diesem Beispielcode natürlich vernachlässigt wurde) getestet ;) Am Ende in der Q&A Session war der Chat auch sehr praktisch, so wurden Fragen nach einem Github-Link direkt im Chat beantwortet. Ich bin dafür man sollte in jedem Talk eine Twitter-Wall bzw. einen Chat nebenher laufen lassen.</li>
+	<li><strong><a href="http://www.developer-conference.eu/session_post/w3c-web-performance-a-detailed-overview/" target="_blank">W3C Web Performance – A detailed overview</a></strong><br />
+		Ein interessanter Einblick in die upcomming features was das Performance Measurement im Browser angeht. Viele Features die noch nicht implementiert bzw. sogar nichtmal als Standard von der W3C verabschieded wurden sind, wie z.b. Lazyload von Assets nativ durch den Browser tank passendem Argument im HTML-Tag oder das anzeigen von Sub-Millisekunden um präzisere Zeitmessungen z.b. beim Rendering von Webgames (zwischen einzelnen Frames) zu haben.</li>
+<li><strong><a href="http://www.developer-conference.eu/session_post/code-reviews-leave-your-ego-at-the-door/" target="_blank">Code Reviews – Leave your ego at the door</a></strong><br />
+		Der Vortrag von Frank war gut, ich kam auch bislang noch nicht dazu den Vortrag von ihm - obwohl ich ein Arbeitskollege von ihm bin - zu sehen, daher war es für mich auch neu. Codereviews sind wichtig und er hat gut erklärt warum das so ist und worauf man bei Codereviews achten muss. Wir machen in unserem Team keine Codereviews, höchstens wenn mal etwas schief gelaufen ist. Allerdings haben wir seit gut einer Woche nun eine Review Spalte in unserem Kanban wodurch wir zumindest eine 1-1 Review von den Tasks machen. Das ersetzt natürlich keine Codereviews und ich denke auch das wir die Freiheit bekommen könnten Codereviews zu machen, die wir nun mal endlich nutzen sollten. Das wird auf der nächsten Retrospektive auf jeden Fall ein spannendes Thema werden.</li>
+<li><strong><a href="http://www.developer-conference.eu/session_post/bower-und-composer-ein-dependency-management-dream-team/" target="_blank">Bower und Composer – Ein Dependency Management Dream Team</a></strong><br />
+		Bower und Composer sind für mich gute alte Bekannte tools. Daher war ich auch nicht mit der Erwartung in den Talk gegangen neues zu sehen, aber vielleicht etwas mehr in die Tiefe hätte es schon gehen können. Mich hat z.b. auch gewundert das die bei Yatego kein Satis als Mirror für ihre dependencys (in Composer) nutzen. Auch die neuen Möglichkeiten der Composer-Plugins wurde nicht angerissen. Es blieb also sehr oberflächlich was aber dennoch überraschend gut die Zeit gefüllt hat.
+		</li>
+<li><strong><a href="http://www.developer-conference.eu/session_post/openstreetmap-creating-your-own-customized-maps/" target="_blank">OpenStreetMap: Creating your own customized maps</a></strong><br />
+		In diesen Vortrag bin ich gegangen weil ich selbst mal eine customized map auf basis von OSM Kartenmaterial gebastelt habe. Es gab wenig eigenwerbung in diesem Vortrag obwohl der Speaker von einem Unternehmen der Sponsoren der DCHH kam, was mich positiv überraschte. Er ging sehr detailiert auf den Prozess des Kartenrenderings ein und wie man diesen Prozess selbst gestalten kann. Ich habe damals nur oberflächlich fertige Map-Tiles von einem Server genommen und oben drauf mit der API gespielt - worauf er allerdings gar nicht einging. Dafür war aber auch durch die Tiefe der Prozessbeschreibung wie man zu diesen Map-Tiles kommt gar keine Zeit mehr. Was auch absolut nicht schlimm war. Es war zwar sehr interessant diesen Prozess mal so detailiert kennen zu lernen, allerdings bezweifel ich das viele aus dem Publikum so etwas nie selbst machen werden, da wäre der Fokus auf die API doch besser bzw. Publikumsorientierter gewesen.
+		</li>
+<li><strong><a href="http://www.developer-conference.eu/session_post/webgl-3d-welten-im-browser/" target="_blank">WebGL – 3D Welten im Browser</a></strong><br />
+		Geiler Talk. Definitiv ein ehrenwerter Abschluss der Konferenz. Der Speaker ist auf die elementaren Grundlagen von OpenGL/WebGL eingegangen - bis hin zu Shader coding. Nette Grundlagenauffrischung, auch wenn ich dort eher den Ansatz verfolge nicht das Rad neu zu erfinden sondern lieber auf vorhandene Frameworks zurück zu greifen. Dafür ist aber so eine Auffrischung immer gut, denn wenn das Framework mal nicht das macht oder machen kann was man will dann macht man es eben doch wieder selbst.
+		</li>
+</ul>
+
+Damit ist die DCHH 2013 auch schon wieder vorbei. Meinet wegen könnte das Klassentreffen auch gern eine Klassenfahrt für eine Woche sein, so viele interessante Menschen und spannende Talks! Ich freue mich schon auf die 4. Ausgabe, dann mit einem neuen Namen.
