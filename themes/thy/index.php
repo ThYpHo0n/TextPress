@@ -4,6 +4,7 @@ if( count($articles) < 1 ){
   echo "<h3>No articles found!</h3>";
 }
 else{
+  $imusic = 0;
   foreach($articles as $article){
 ?>
 <article class="post">
@@ -22,7 +23,12 @@ else{
   <section class="content">
     <?php
       if (array_key_exists('music', $article['meta']['category'])) {
-        echo $article['content'];
+        if($imusic < 5) {
+          echo $article['content'];
+          $imusic++;
+        } else {
+          echo '...';
+        }
       } else {
         echo preg_replace('/\s+?(\S+)?$/', '', substr(strip_tags($article['content']), 0, 250));
         echo '...';
