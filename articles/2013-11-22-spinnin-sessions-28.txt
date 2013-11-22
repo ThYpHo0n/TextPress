@@ -1,0 +1,10 @@
+{
+	"title" : "Spinnin Sessions 28",
+	"author":"ThYpHoOn",
+	"date":"22-11-2013",
+	"tag":"music, electro, soundcloud, spinnin, records, session",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/121194091&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Sorry for being silent the last days but it was a little bit stressfull and i'm currently in a caffein withdrawal. But nevermind, here is another nice podcast i really enjoy: The Spinnin Sessions podcast from the Spinnin Records label with new tracks directly from the label and nice guest mixes - this time from Blasterjaxx!
