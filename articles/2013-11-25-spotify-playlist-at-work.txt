@@ -1,0 +1,10 @@
+{
+	"title" : "Spotify playlist Electro@Work",
+	"author":"ThYpHoOn",
+	"date":"25-11-2013",
+	"tag":"music, electro, spotify, playlist",
+	"category":"music"
+}
+
+<iframe src="https://embed.spotify.com/?uri=spotify:user:thypho0n:playlist:3Ni29Rw2FHuj6Tbt9GxMkn" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+Here is my Spotify playlist named "Electro@Work". It's named because i'm hearing this playlist very often at work in the office together with my colleagues. I try to hold this playlist up to date with the greatest/newest electro/house/dance music. If you like it you can follow it via Spotify.
