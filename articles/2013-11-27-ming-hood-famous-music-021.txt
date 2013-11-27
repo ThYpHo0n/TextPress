@@ -1,0 +1,10 @@
+{
+	"title" : "Ming's Hood Famous Music 021",
+	"author":"ThYpHoOn",
+	"date":"27-11-2013",
+	"tag":"music, electro, soundcloud, podcast, ming, hood, famous",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119655728&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Because i don't mentioned it yet here is another podcast i enjoy. It's a monthly 1 hour podcast from Ming. Hope you enjoy it as i do.
