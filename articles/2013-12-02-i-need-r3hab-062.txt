@@ -1,0 +1,10 @@
+{
+	"title" : "R3hab - I Need R3hab",
+	"author":"ThYpHoOn",
+	"date":"02-12-2013",
+	"tag":"music, electro, soundcloud, podcast, r3hab",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122859043&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+First december podcast! Hope you all shop the best gifts for your family and friends. Here is the right music for this. Enjoy!
