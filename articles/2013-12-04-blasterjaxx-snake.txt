@@ -1,0 +1,10 @@
+{
+	"title" : "Blasterjaxx - Snake",
+	"author":"ThYpHoOn",
+	"date":"02-12-2013",
+	"tag":"music, electro, soundcloud, blasterjaxx, snake, single",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/118728603&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+One of my favorite singles right now is this one. It kinda blast my mind out.
