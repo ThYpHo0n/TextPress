@@ -1,0 +1,10 @@
+{
+	"title" : "Landis - Funked Up",
+	"author":"ThYpHoOn",
+	"date":"05-12-2013",
+	"tag":"music, electro, soundcloud, singles, landis, funked, up",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123362508&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Another massiv track from Landis! It's called Funked Up and the preview was recently posted on Soundcloud.
