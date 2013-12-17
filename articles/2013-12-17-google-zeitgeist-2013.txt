@@ -1,0 +1,15 @@
+{
+	"title" : "Google Zeitgeist 2013 year in review",
+	"author":"ThYpHoOn",
+	"date":"17-12-2013",
+	"tag":"google, zeitgeist, 2013",
+	"category":"politics"
+}
+
+German:
+<iframe width="640" height="390" src="//www.youtube.com/embed/8hVwx13k1QM" frameborder="0" allowfullscreen></iframe>
+<br />
+English:
+<iframe width="640" height="390" src="//www.youtube.com/embed/Lv-sY_z8MNs" frameborder="0" allowfullscreen></iframe>
+<br />
+The year is close to it's end and before it ends there are so many year in reviews coming to us but one is very special for me. The annual Google Zeitgeist year in review. This year it comes in different languages. I've embedded the english and the german one here for you.
