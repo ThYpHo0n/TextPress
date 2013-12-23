@@ -1,0 +1,10 @@
+{
+	"title" : "R3hab - I Need R3hab Episode 065",
+	"author":"ThYpHoOn",
+	"date":"23-12-2013",
+	"tag":"music, electro, soundcloud, podcast, r3hab, edm",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126150053&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Today the new epsidode 65 of I Need R3hab was published. A nice mix with some of the best tracks of the year!

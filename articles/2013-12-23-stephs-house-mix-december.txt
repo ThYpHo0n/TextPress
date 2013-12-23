@@ -1,0 +1,10 @@
+{
+	"title" : "Steph's House Mix December 2013",
+	"author":"ThYpHoOn",
+	"date":"23-12-2013",
+	"tag":"music, electro, soundcloud, podcast, steph, dj, house, december",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126167239&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Not only the year but also the december is close to it's end and Steph DJ has mixed the best house tracks of the month to a 1h session.
