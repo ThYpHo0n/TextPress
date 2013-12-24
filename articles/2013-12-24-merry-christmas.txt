@@ -1,0 +1,10 @@
+{
+	"title" : "Merry Christmas!",
+	"author":"ThYpHoOn",
+	"date":"24-12-2013",
+	"tag":"blog, christmas",
+	"category":"blog"
+}
+
+Hey folks,
+i wish you all a merry christmas and if we don't read us anymore this year a happy new year! Hope you enjoy the upcomming days with your family.
