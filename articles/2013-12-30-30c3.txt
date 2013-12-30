@@ -1,0 +1,9 @@
+{
+	"title" : "30C3",
+	"author":"ThYpHoOn",
+	"date":"30-12-2013",
+	"tag":"politics, ccc, 30c3, hacking, security",
+	"category":"politics"
+}
+
+Sorry for the silence in the last few days but i've attented the 30C3, a hacker conference organizes by the CCC (Chaos Computer Club) this year again in Hamburg. It was great, met a lot of awesome people and gaind so many inspiration for the projects and stuff to solder. As always it was to short and the time run out to fast... There were also some nice (cc) mixes at the lounge area, if they are available i will post a collection of them here for you.
