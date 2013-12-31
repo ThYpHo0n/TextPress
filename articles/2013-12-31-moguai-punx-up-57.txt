@@ -1,0 +1,10 @@
+{
+	"title" : "Moguai - Punx Up The Volume 57",
+	"author":"ThYpHoOn",
+	"date":"30-12-2013",
+	"tag":"music, electro, soundcloud, podcast, r3hab, edm",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127101940&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Another end of the year edition, this time from one of my favorite dj's Moguai! It's number 57 of the Punx Up The Volume podcast with the best tracks of the year used in his sets.
