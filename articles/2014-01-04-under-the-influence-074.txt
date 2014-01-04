@@ -1,0 +1,10 @@
+{
+	"title" : "Rubicon 7 - Under The Influence 074",
+	"author":"ThYpHoOn",
+	"date":"04-01-2014",
+	"tag":"music, electro, soundcloud, podcast, rubicon, under, the, influence, edm",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127711897&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+Rubicon 7's first show of the year. Great tunes for your ears!
