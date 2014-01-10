@@ -1,0 +1,11 @@
+{
+	"title" : "Robbie Rivera - The Juicy Show",
+	"author":"ThYpHoOn",
+	"date":"10-01-2014",
+	"tag":"music, electro, soundcloud, podcast, robbie, rivera, juicy, show, edm",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128333379&amp;color=0092ff&amp;auto_play=false&amp;show_artwork=true"></iframe>
+It's quite a few weeks ago i've introduced a new podcast to you so here is a new discovery:<br />
+Robbie Rivera with "The Juicy Show". I think the mix of deephouse, electro and house is just perfect in this podcast. For me it's perfect as background music when i'm working.
