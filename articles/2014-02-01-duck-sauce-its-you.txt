@@ -1,0 +1,10 @@
+{
+	"title" : "Duck Sauce - It's You (Dj Snake Remix)",
+	"author":"ThYpHoOn",
+	"date":"01-02-2014",
+	"tag":"music, electro, soundcloud, edm",
+	"category":"music"
+}
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/101722169&amp;color=0092ff&amp;auto_play=false&amp;hide_related=true&amp;visual=true"></iframe>
+I like the 50s/60s with their rock'n roll style and this song reflects this in a very nice way. The drops from Dj Snake are massive and give the track more power. I don't know why i've missed this track last year and found it only just.
