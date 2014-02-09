@@ -1,0 +1,10 @@
+{
+	"title" : "MissDVS - ElectroSexual",
+	"author":"ThYpHoOn",
+	"date":"09-02-2014",
+	"tag":"music, electro, soundcloud, edm, podcast, missdvs, electro, sexual",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/133472040&amp;color=0092ff&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+This time i picked a monthly Canadian podcast called "ElectroSexual". Host is Zaralea Grace alias MissDVS. Her performance is impressive, the track selection is finest edm and perferct transitions.
