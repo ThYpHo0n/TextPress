@@ -9,7 +9,7 @@ else{
 ?>
 <article class="post">
   <header>
-    <h1><a href="<?php echo $article['url']; ?>"><?php echo $article['meta']['title']; ?></a></h1>
+    <h1><a href="<?php echo $article['url']; ?>"><?php if(array_key_exists('title', $article['meta']){echo $article['meta']['title'];} ?></a></h1>
     <div class="postmeta">
       <span class="date"><?php  echo date($global['date.format'],strtotime($article['meta']['date']));  ?></span> /
       <span class="author-by"> By </span>
