@@ -11,7 +11,7 @@ else{
   <header>
     <h1><a href="<?php echo $article['url']; ?>"><?php if(array_key_exists('title', $article['meta']){echo $article['meta']['title'];} ?></a></h1>
     <div class="postmeta">
-      <span class="date"><?php  echo date($global['date.format'],strtotime($article['meta']['date']));  ?></span> /
+      <span class="date"><?php if(array_key_exists('date',$article['meta'])){ echo date($global['date.format'],strtotime($article['meta']['date']));}  ?></span> /
       <span class="author-by"> By </span>
       <span class="author"><?php  echo isset($article['meta']['author'])
                         ? $article['meta']['author']
