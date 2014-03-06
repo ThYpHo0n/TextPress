@@ -1,0 +1,10 @@
+{
+	"title" : "Daftastic Radio",
+	"author":"ThYpHoOn",
+	"date":"06-03-2014",
+	"tag":"music, soundcloud, set, podcast, dyro",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/137763104&amp;color=0092ff&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+Back from my trip to Turkey i've just heared this nice episode (number 47) of Dyros Daftastic Radio podcast. Very nice mixture of melodic and vocal edm tracks.
