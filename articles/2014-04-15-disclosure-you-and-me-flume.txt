@@ -1,0 +1,10 @@
+{
+	"title" : "Disclosure - You & Me (Flume Remix)",
+	"author":"ThYpHoOn",
+	"date":"15-04-2014",
+	"tag":"music, soundcloud, remix, Flume, disclosure, you, and, me",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/96379023&amp;color=0092ff&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+Impressive and beautiful remix made by Flume. I like the classical melody that is remixed in such a massive way that it just impressed me. Great work!
