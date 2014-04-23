@@ -1,0 +1,10 @@
+{
+	"title" : "Stevie Wonder - Superstition (Live City Remix)",
+	"author":"ThYpHoOn",
+	"date":"23-04-2014",
+	"tag":"music, soundcloud, remix, stevie, wonder, superstition, live, city",
+	"category":"music"
+}
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144024349&amp;color=0092ff&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+Crazy remix of Superstition (originally from Stevie Wonder) made by Live City. They created a perfect twist of modern house/funk with such a classic song. Great work!
