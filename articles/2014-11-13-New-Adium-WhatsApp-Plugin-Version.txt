@@ -1,0 +1,10 @@
+{
+	"title" : "New Adium WhatsApp Plugin version",
+	"author":"ThYpHoOn",
+	"date":"13-11-2014",
+	"tag":"whatsapp, adium, plugin, whats, app, messaging",
+	"category":"programming"
+}
+
+Due to the fact that the WhatsApp servers are closing connections directly when using a old Android Version (or faking the version by sending a outdated version within the connection process) i had to update my Adium WhatsApp plugin. I've already submitted a new version of the plugin to the <a href="http://www.adiumxtras.com/index.php?a=xtras&xtra_id=8571" target="_blank">Adiumxtras site</a> but who knows how long it will take to get the approvement this time. In the mean time you can download the latest working plugin from my blog:
+<a href="http://blog.thyphoon.org/files/WhatsAppAdiumPlugin.zip" target="_blank">Download</a>
