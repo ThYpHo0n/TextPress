@@ -2,8 +2,10 @@
 return array(
 	'date.format' => 'd.M.Y',   // Date format to be used in article page (not for routes)
 	'author.name' => 'ThYpHoOn', // Global author name
-	'site.name'  => 'blog.ThYpHoOn.org',   // Site name (Global)
-	'site.title' => 'My blog about programming, music and politics',  // Site default title (Global)
+	'site.name'  => 'nik.re',   // Site name (Global)
+	'site.title' => 'My blog about programming, music and home automation',  // Site default title (Global)
+    'site.baseurl'      => 'https://nik.re',   // Site URL (Global)
+    'site.description'  => 'This blog is a private blog about programming, music and home automation',  // Site default description (Global)
 	'article.path'=> './articles',      // Path to articles
 	'themes.path' => './themes',  // Path to templates
 	'active.theme'  => 'thy',  // Current active template
@@ -15,6 +17,11 @@ return array(
 	'assets.prefix' => '', // prefix to be added with assets files
 	'prefix' => '',   // prefix to be added with all URLs (not to assets). eg : '/blog'
 	'google.analytics' => false, // Google analytics code. set false to disable
+    'cache' => array(
+        'enabled'   => true, // Enable/Disable cache
+        'expiry'    => 24, // Cache expiry, in hours. -1 for no expiry
+        'path'      => './cache'
+    ),
 	// Define routes
 	'routes' => array(
 			// Site root
@@ -66,5 +73,5 @@ return array(
 					'template' => 'atom',
 					'layout' => false,
 				)
-		),
+		)
 );

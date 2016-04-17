@@ -5,11 +5,11 @@
     <title>
       <?php 
         $title= (isset($global['title'])) ? $global['title'] : $global['site.title'];
-        echo $global['site.name'] .' | '. $title;
+        echo $global['site.name'] ,' | ', $title;
       ?>
     </title>
     <meta name="description" content="">
-    <meta content='Authur Name' name='<?php echo $global['author.name']; ?>'/> 
+    <meta name="author" content="<?php echo $global['author.name']; ?>">  
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -18,15 +18,10 @@
 
     <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
-    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="<?php echo $global['base.directory'];?>/assets/css/main.css" rel="stylesheet">
+    <link href="<?php echo $global['assets.prefix'];?>/themes/textpress/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $global['assets.prefix'];?>/themes/textpress/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="<?php echo $global['assets.prefix'];?>/themes/textpress/assets/css/main.css" rel="stylesheet">
 
-    <!-- Le fav and touch icons -->
-
-
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
     <?php if($global['google.analytics']){?>
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -59,12 +54,13 @@
                 <?php
                 if(isset($global['categories'])){
                   foreach ($global['categories'] as $slug => $category) {
-                    echo '<li><a tabindex="-1" href="/category/'.$slug.'">'. $category .'</a></li>';
+                    echo '<li><a tabindex="-1" href="/category/',$slug,'">', $category ,'</a></li>';
                   }
                 }
                 ?>
               </ul>
             </li>
+            <li><a href="/archives">Archives</a></li>
             <li><a href="https://github.com/shameerc/TextPress" target="_blank">Source</a></li>
             <li><a href="/about">About</a></li>
           </ul>
@@ -87,8 +83,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     
-    <script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="<?php echo $global['assets.prefix'];?>/themes/textpress/assets/js/bootstrap.min.js"></script>
   </body>
 </html>
