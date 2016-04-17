@@ -1,6 +1,6 @@
 <?php
 return array(
-	'date.format' => 'd.M.Y',   // Date format to be used in article page (not for routes)
+	'date.format' => 'd.m.Y',   // Date format to be used in article page (not for routes)
 	'author.name' => 'ThYpHoOn', // Global author name
 	'site.name'  => 'nik.re',   // Site name (Global)
 	'site.title' => 'My blog about programming, music and home automation',  // Site default title (Global)
@@ -8,7 +8,7 @@ return array(
     'site.description'  => 'This blog is a private blog about programming, music and home automation',  // Site default description (Global)
 	'article.path'=> './articles',      // Path to articles
 	'themes.path' => './themes',  // Path to templates
-	'active.theme'  => 'thy',  // Current active template
+	'active.theme'  => 'nik',  // Current active template
 	'layout.file' => 'layout',    // Site layout file
 	'file.extension' => '.txt',   // file extension of articles
 	'disqus.username' => '',   // Your disqus username or false (Global)
