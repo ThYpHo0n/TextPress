@@ -1,0 +1,42 @@
+{
+	"title" : "Say hi to Sarah",
+	"author":"Nik",
+	"date":"03-06-2016",
+	"tag":"homeautomation",
+	"category":"Sarah"
+}
+
+Say hi to [S.A.R.A.H.](http://eureka.wikia.com/wiki/SARAH) (Self Actuated Residential Automated Habitat). A couple of years ago I enjoyed watching Eureka, a nice scifi tv show. The main character in the show lives in a smart home called Sarah. This was my very first contact with smart home technology. It was just a scifi show but still my vision of living in such a house was born since then. In the last couple of years I lived in some shared flats. There I don't had the intent do build up smart things. But last year I moved together with my girlfriend in a new flat. The smart home vision was still there and I started thinking about the details and how to realize each functionality. In the next blog posts I want to share my vision, ideas, projects and solutions I've build so far and what my upcoming plans are. Here is a short overview about what I've used and achieved so far:
+
+## Hardware
+ - 3x [Raspberry PI](http://www.amazon.de/gp/product/B01CEFWQFA/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B01CEFWQFA&linkCode=as2&tag=nikre-21) (2x rev3, 1x rev1)
+ - TP Link wifi router
+ - 2x Patch cables (RJ-45)
+ - [Philips SBT speaker](http://www.amazon.de/gp/product/B007UOZ58G/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B007UOZ58G&linkCode=as2&tag=nikre-21)
+ - [Terratec Concert W1 speaker](http://www.amazon.de/gp/product/B00F013NLM/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00F013NLM&linkCode=as2&tag=nikre-21)
+ - [Lixada BLE Bulb](https://www.amazon.de/Lixada-Smartbulb/dp/B0149UQBEK/?_encoding=UTF8&camp=1638&creative=6742&linkCode=ur2&site-redirect=de&tag=nikre-21)
+ - [Brennenstuhl Funkschalt-Set](http://www.amazon.de/gp/product/B001AX8QUM/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B001AX8QUM&linkCode=as2&tag=nikre-21)
+ - Breadboard
+ - Pin connector cables
+ - 3x Power supply for Raspberry PI
+
+## Software
+ - [Raspbian](https://www.raspbian.org/)
+ - [Pilight](http://www.pilight.org/)
+ - [Snapcast](https://github.com/badaix/snapcast)
+ - [Shairport-Sync](https://github.com/mikebrady/shairport-sync)
+ - [BLE-Lixada](https://github.com/ThYpHo0n/BLE-Lixada) forked from adafruit/BLE_Colorific
+
+## Functionality
+ - Remote control lamps/sockets: my lights in the bedroom and living room can be controlled with a smartphone or laptop which enables me to lay in my bed and turn off the lights
+ - Synchronized multi-room audio connected to Spotify, Soundcloud and you can connect to it via Airplay. You can control the volume of each room separately
+
+## Planned
+ - Add sensor for temperature and humidity in my rooms (living room, bath, kitchen)
+ - Control the heaters
+ - Monitor everything and create fancy graphs
+ - Voice control my existing actions
+ - Voice control integration of Amazon Echo / combine it with Siri
+ - Indoor location tracking: turn lights on if someone (the system knows of) enters the room
+ - Control IR devices in the living room
+ - Custom ambilight clone for my tv
