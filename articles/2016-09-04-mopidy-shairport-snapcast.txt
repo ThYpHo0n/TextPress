@@ -1,0 +1,92 @@
+{
+	"title" : "Mopidy, Shairport-Sync and Snapcast is a gread combo",
+	"author":"Nik",
+	"date":"04-09-2016",
+	"tag":"linux, debian, technology, audio, multiroom, snapcast, shairport, sync, airplay, raspberry, pi, mopidy, mpd",
+	"category":"sarah"
+}
+
+This is how my multiroom audio setup looks like:
+![myFlat.png](/images/myFlat.png "myFlat")
+
+As you can see I've deployed one Raspberry Pi per room. Most important rooms for me are the kitchen (I like to cook), the bathroom (I like to be clean) and of course the living room (yeah I like to live). Music is important in my life and therefore I was always kind of addicted to it and like to listen to music all day long. Thats why I put on my headphones when I'm going outside. But how to hear music while at home? Thats what I wanted to tackle with this setup. I've soundboxes besides the PI's in the bathroom, kitchen and the living room.
+My PI in the living room works as the central station which runs the music stream and syncs the audio to all the clients. I want to split up the project into two parts. The first part is playing the music comfortably on the central station with all the comfort we can get. The second part is then to distribute the audio to all clients.
+
+#Getting the music started
+The first question you need to answer is what audio sources do you have or to name it in another way which music streaming services do you use? I'm using Spotify and Soundcloud most of the time but sometimes I'm listening to some web radio stations. I also like to use my iPhone in combination with Airplay to stream stuff without leaving the app. The perfect fit for that mix of music consumption I choose is [Mopidy](https://www.mopidy.com) (Spotify, Soundcloud, web radio) and [Shairport-Sync](https://github.com/mikebrady/shairport-sync) for Airplay. Both are quite simple to install and configure. I've configured both to play the audio into a linux pipe aka audiosink which works quite well out of the box (you get some seconds of a mixed sound output if you play both at the same time into the same audio sink).
+Here is my /etc/shairport-sync.conf:
+```
+general = {
+  name = "S.A.R.A.H.";
+  output_backend = "pipe";
+};
+
+metadata = {
+  enabled = "yes";
+  include_cover_art = "yes";
+  pipe_name = "/tmp/shairport-sync-metadata";
+}
+
+sessioncontrol = {
+  allow_session_interruption = "yes";
+  session_timeout = 20;
+}
+
+pipe = {
+  name = "/tmp/snapfifo";
+  audio_backend_buffer_desired_length = 48000;
+}
+```
+And you get the fancy Airplay device output:
+![sarah-airplay.png](/images/sarah-airplay.png "sarah-airplay")
+
+Here is my /etc/mopidy/mopidy.conf:
+```
+[mpd]
+hostname = 0.0.0.0
+
+[http]
+hostname = 0.0.0.0
+
+[core]
+cache_dir = /var/cache/mopidy
+config_dir = /etc/mopidy
+data_dir = /var/lib/mopidy
+max_tracklist_length = 500
+
+[logging]
+color = true
+console_format = %(levelname)-8s %(message)s
+debug_format = %(levelname)-8s %(asctime)s [%(process)d:%(threadName)s] %(name)s\n  %(message)s
+debug_file = /var/log/mopidy/debug.log
+
+[audio]
+output = audioresample ! audioconvert ! audio/x-raw,rate=48000,channels=2,format=S16LE ! wavenc ! filesink location=/tmp/snapfifo
+
+[spotify]
+username = user
+password = pass
+
+[scrobbler]
+username = user
+password = pass
+
+[soundcloud]
+auth_token = t0k3n
+
+[local]
+media_dir = /opt/media
+```
+There you can see the pipe configuration and the spotify, soundcloud configuration. You have to install these plugins manually via pip after installing mopidy but it's not that complicated. If there is demand I can add the needed commands here.
+After a service restart you should be able to connect to a mopidy frontend, in my case I like to use moped which is available via the browser:
+![sarah-moped.png](/images/sarah-moped.png "sarah-moped")
+
+Yay, the first step is done. We can Airplay now and play our favourite tracks from all our playlists on Soundcloud and Spotify via a dedicated web frontend.
+
+Now we need to sync that pipe to all our audio clients. For that I'm using the awesome [Snapcast](https://github.com/badaix/snapcast) project.
+I'm just using the default settings of Snapcast Server for now which is just adding one stream based on the /tmp/snapfifo pipe and streams it to the clients.
+
+As a bonus I'm using the Snapcast Server RPC to get some details about the connected Snapcast Clients and I can change the volume or mute a client via a custom web interface which looks like this:
+![sarah-music.png](/images/sarah-music.png "sarah-music")
+
+Very straight forward after findint the right open-source projects doing the job for you.
