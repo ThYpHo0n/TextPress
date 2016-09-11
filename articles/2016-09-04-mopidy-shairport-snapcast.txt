@@ -2,7 +2,7 @@
 	"title" : "Mopidy, Shairport-Sync and Snapcast is a gread combo",
 	"author":"Nik",
 	"date":"04-09-2016",
-	"tag": "coding","linux, debian, technology, audio, multiroom, snapcast, shairport, sync, airplay, raspberry, pi, mopidy, mpd",
+	"tag":"coding, linux, debian, technology, audio, multiroom, snapcast, shairport, sync, airplay, raspberry, pi, mopidy, mpd",
 	"category":"sarah"
 }
 
