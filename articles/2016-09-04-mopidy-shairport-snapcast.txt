@@ -7,7 +7,7 @@
 }
 
 This is how my multiroom audio setup looks like:
-![myFlat.png](/images/myFlat.png "myFlat")
+![myFlat.png](/images/sarah/myFlat.png "myFlat")
 
 As you can see I've deployed one Raspberry Pi per room. Most important rooms for me are the kitchen (I like to cook), the bathroom (I like to be clean) and of course the living room (yeah I like to live). Music is important in my life and therefore I was always kind of addicted to it and like to listen to music all day long. Thats why I put on my headphones when I'm going outside. But how to hear music while at home? Thats what I wanted to tackle with this setup. I've soundboxes besides the PI's in the bathroom, kitchen and the living room.
 My PI in the living room works as the central station which runs the music stream and syncs the audio to all the clients. I want to split up the project into two parts. The first part is playing the music comfortably on the central station with all the comfort we can get. The second part is then to distribute the audio to all clients.
@@ -38,7 +38,7 @@ pipe = {
 }
 ```
 And you get the fancy Airplay device output:
-![sarah-airplay.png](/images/sarah-airplay.png "sarah-airplay")
+![sarah-airplay.png](/images/sarah/sarah-airplay.png "sarah-airplay")
 
 Here is my /etc/mopidy/mopidy.conf:
 ```
@@ -79,7 +79,7 @@ media_dir = /opt/media
 ```
 There you can see the pipe configuration and the spotify, soundcloud configuration. You have to install these plugins manually via pip after installing mopidy but it's not that complicated. If there is demand I can add the needed commands here.
 After a service restart you should be able to connect to a mopidy frontend, in my case I like to use moped which is available via the browser:
-![sarah-moped.png](/images/sarah-moped.png "sarah-moped")
+![sarah-moped.png](/images/sarah/sarah-moped.png "sarah-moped")
 
 Yay, the first step is done. We can Airplay now and play our favourite tracks from all our playlists on Soundcloud and Spotify via a dedicated web frontend.
 
@@ -87,6 +87,6 @@ Now we need to sync that pipe to all our audio clients. For that I'm using the a
 I'm just using the default settings of Snapcast Server for now which is just adding one stream based on the /tmp/snapfifo pipe and streams it to the clients.
 
 As a bonus I'm using the Snapcast Server RPC to get some details about the connected Snapcast Clients and I can change the volume or mute a client via a custom web interface which looks like this:
-![sarah-music.png](/images/sarah-music.png "sarah-music")
+![sarah-music.png](/images/sarah/sarah-music.png "sarah-music")
 
 Very straight forward after findint the right open-source projects doing the job for you.
